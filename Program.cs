@@ -5,8 +5,7 @@
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 */
 string[] array = new string[] {"Hello", "2", "world", ":-)"};
-// string[] array = new string[] {"1234", "1567", "-2", "computer science"};
-// string[] array = new string[] {"Russia", "Denmark", "Kazan"};
+
 
 int lenNewArray = 0;
 for (int i = 0; i <= array.Length - 1; i++)
