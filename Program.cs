@@ -6,12 +6,13 @@
 */
 string[] array = new string[] {"Hello", "2", "world", ":-)"};
 
-
+//Определяем длину номого массива
 int lenNewArray = 0;
 for (int i = 0; i <= array.Length - 1; i++)
 {
     if (array[i].Length <= 3) lenNewArray++;
 }
+
 
 string[] newArray = new string[lenNewArray];
 int idx = 0;
